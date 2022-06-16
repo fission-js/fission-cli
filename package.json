@@ -47,7 +47,7 @@
     "@angular-devkit/core": "14.0.1",
     "@angular-devkit/schematics": "14.0.1",
     "@angular-devkit/schematics-cli": "14.0.1",
-    "@fission-js/nestjs-schematics": "^0.0.4",
+    "@fission-js/nestjs-schematics": "^0.0.5",
     "@nestjs/schematics": "^8.0.3",
     "chalk": "3.0.0",
     "chokidar": "3.5.3",
