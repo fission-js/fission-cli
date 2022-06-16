@@ -1,6 +1,6 @@
 {
   "name": "@fission-js/cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nest - modern, fast, powerful node.js web framework (@cli)",
   "publishConfig": {
     "access": "public"
@@ -47,6 +47,7 @@
     "@angular-devkit/core": "14.0.1",
     "@angular-devkit/schematics": "14.0.1",
     "@angular-devkit/schematics-cli": "14.0.1",
+    "@fission-js/nestjs-schematics": "^0.0.4",
     "@nestjs/schematics": "^8.0.3",
     "chalk": "3.0.0",
     "chokidar": "3.5.3",
