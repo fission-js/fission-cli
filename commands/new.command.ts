@@ -19,7 +19,8 @@ export class NewCommand extends AbstractCommand {
       .option('-s, --skip-install', 'Skip package installation.', false)
       .option(
         '-p, --package-manager [package-manager]',
-        'Specify package manager.'
+        'Specify package manager.',
+          'yarn'
       )
       .option(
         '-l, --language [language]',
