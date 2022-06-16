@@ -29,7 +29,7 @@ export class NewCommand extends AbstractCommand {
       .option(
         '-c, --collection [collectionName]',
         'Schematics collection to use',
-        Collection.NESTJS,
+        Collection.FISSIONJS,
       )
       .option('--strict', 'Enables strict mode in TypeScript.', false)
       .action(async (name: string, command: Command) => {

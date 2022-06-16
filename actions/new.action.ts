@@ -108,7 +108,7 @@ const generateApplicationFiles = async (args: Input[], options: Input[]) => {
     (option) => option.name === 'collection' && option.value != null,
   )!.value;
   const collection: AbstractCollection = CollectionFactory.create(
-    (collectionName as Collection) || Collection.NESTJS,
+    (collectionName as Collection) || Collection.FISSIONJS,
   );
   const schematicOptions: SchematicOption[] = mapSchematicOptions(
     args.concat(options),
