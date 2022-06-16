@@ -113,7 +113,7 @@ export class NestCollection extends AbstractCollection {
   ];
 
   constructor(runner: AbstractRunner) {
-    super('@fission-js/nestjs-schematics', runner);
+    super('@nestjs/schematics', runner);
   }
 
   public async execute(name: string, options: SchematicOption[]) {
